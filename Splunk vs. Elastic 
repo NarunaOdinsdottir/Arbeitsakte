@@ -1,0 +1,171 @@
+☢️ Einführung
+
+##„Was ist SIEM? – Das Frühwarnsystem des Vaults“
+
+Stell dir dein Unternehmen wie einen Vault im Ödland von
+Fallout vor.
+
+Draußen: Raider, Supermutanten, Strahlung, Chaos.
+Drinnen: Struktur, Systeme, Infrastruktur.
+
+# Definition:
+
+SIEM (Security Information and Event Management) ist das zentrale Kontrollzentrum im Vault.
+Aufgabe:
+Es sammelt alle Funksprüche, Türsensoren, Geigerzähler-Messungen und Wachberichte – also Logs – an einem Ort.
+
+Ziel:
+Aus dem chaotischen Rauschen des Ödlands werden verwertbare Informationen.
+Bedrohungen werden erkannt, bevor sie die Vault-Tür sprengen.
+
+☢️ Kernfunktionen
+
+##„Überleben im Ödland braucht Übersicht“
+
+Ein SIEM ist wie das Hauptterminal im Overseer-Büro.
+
+• Zentrale Protokollverwaltung
+Alle Sensoren (Server, Firewalls, Endgeräte) melden an ein einziges Terminal.
+• Ereigniskorrelation
+Ein offenes Tor + deaktivierter Geschützturm + Bewegung im Sektor 3 = Kein Zufall.
+Das ist ein koordinierter Raider-Angriff.
+• Echtzeit-Alerting
+Alarm geht los, bevor der erste Raider im Atrium steht.
+• Compliance & Reporting
+Vault-Tec möchte Berichte. Immer.
+Regulatorik = Überlebensregeln.
+• Sichtbarkeit für das SOC
+Das Security Operations Center ist dein Vault-Wachtrupp.
+
+#These:
+
+Ein SIEM ist das Herz des Vaults.
+Ohne es bist du nur eine Höhle mit Strom.
+Heute vergleichen wir zwei Überlebensstrategien:
+Splunk vs. Elastic Stack
+
+☢️ Splunk
+##„Die Vault-Tec Komplettlösung“
+
+Splunk ist wie ein High-End Vault von Vault-Tec selbst.
+
+#Philosophie:
+
+Proprietär. Fertig. Poliert. Plug-and-Play.
+Du bekommst:
+Vorgefertigte Überwachungssysteme
+Dashboards
+Detection-Packs
+
+#Abfragesprache:
+
+SPL – mächtig, wie Terminal-Kommandos mit Pipe-Logik.
+Datenmodell:
+Schema-on-Read.
+Alle Funksprüche werden erst mal gespeichert.
+Interpretation passiert beim Zugriff.
+
+#SIEM-Modul:
+
+Splunk Enterprise Security liefert fertige Detection-Inhalte mit Mapping auf
+MITRE ATT&CK
+Das ist wie ein Raider-Taktik-Handbuch direkt integriert.
+
+☢️ Folie 4 Splunk: Stärken & Schwächen
+
+🟢 Vorteile
+Schnell einsatzbereit – Vault steht in Rekordzeit
+Viele fertige Sicherheitsregeln
+Integrierte Automatisierung (SOAR = automatische Geschütztürme)
+
+🔴 Nachteile
+Lizenzierung nach Ingest-Volumen (GB/Tag)
+→ Je mehr Sensoren, desto teurer
+Vendor Lock-in
+Skalierung im Ödland? Kostet Kronkorken. Viele.
+Splunk ist das Luxus-Vault-Modell.
+
+☢️ Splunk Analogie
+
+„Der Hochsicherheits-Vault mit Vollausstattung“
+Versprechen:
+„Einziehen und sofort sicher.“
+Die Technik erkennt Raider-Muster fast automatisch.
+Du zahlst für Komfort.
+Vault-Tec übernimmt die Feinabstimmung.
+Aber Luxus hat seinen Preis.
+
+☢️ Elastic Stack
+
+##„Der selbst gebaute Überlebensbunker“
+
+Elastic Stack ist modular.
+ELK =
+Elasticsearch
+Logstash
+Kibana
+Du bekommst Rohmaterial.
+Du baust dein eigenes Verteidigungssystem.
+
+#Abfragesprache:
+
+ES|QL oder Query DSL (JSON-basiert).
+
+#Datenmodell:
+
+Schema-on-Write.
+Sensoren müssen korrekt verkabelt werden.
+Falsches Mapping = blinder Wachposten.
+Elastic Security:
+Inzwischen stark gewachsen.
+Nicht mehr nur „günstige Alternative“, sondern ernstzunehmende Plattform.
+
+☢️ Elastic: Stärken & Schwächen
+
+🟢 Vorteile
+Extrem skalierbar
+Sehr schnelle Suche
+Günstiger Einstieg
+Volle Kontrolle
+
+🔴 Nachteile
+Hoher Engineering-Aufwand
+Reifegrad hängt vom Team ab
+Mehr Konfigurationsarbeit
+Elastic ist kein fertiger Vault.
+Es ist ein Baukasten für Überlebenskünstler.
+
+☢️ Elastic Analogie
+
+##„Der modulare Ödland-Bunker“
+Versprechen:
+„Baue dein eigenes Verteidigungssystem.“
+
+Wenn perfekt konfiguriert:
+Schnell. Flexibel. Brutal effizient.
+Aber du brauchst:
+Einen guten Overseer.
+Ein fähiges Technik-Team.
+Zeit.
+
+☢️ Entscheidung
+
+##„Welcher Vault überlebt?“
+
+Splunk priorisiert:
+Komfort
+Standardisierung
+Schnelle Einsatzbereitschaft
+Elastic priorisiert:
+Kontrolle
+Skalierbarkeit
+Technische Freiheit
+Beide können Enterprise-Security leisten.
+Der Unterschied liegt im Betriebsmodell.
+Entscheidungsfaktoren:
+Budget (Kronkorken-Vorrat)
+Log-Volumen (GB/Tag)
+Team-Kompetenz
+Compliance-Anforderungen
+Cloud vs On-Prem
+Wachstumsprognose
