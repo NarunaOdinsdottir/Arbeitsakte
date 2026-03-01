@@ -1,6 +1,6 @@
-☢️ ##Einführung
+## ☢️ Einführung
 
-##Was ist SIEM? – Das Frühwarnsystem des Vaults
+## Was ist SIEM? – Das Frühwarnsystem des Vaults
 
 Stell dir dein Unternehmen wie einen Vault im Ödland von
 Fallout vor.
@@ -8,7 +8,7 @@ Fallout vor.
 Draußen: Raider, Supermutanten, Strahlung, Chaos.
 Drinnen: Struktur, Systeme, Infrastruktur.
 
-#Definition:
+# Definition:
 
 SIEM (Security Information and Event Management) ist das zentrale Kontrollzentrum im Vault.
 Aufgabe:
@@ -18,9 +18,9 @@ Ziel:
 Aus dem chaotischen Rauschen des Ödlands werden verwertbare Informationen.
 Bedrohungen werden erkannt, bevor sie die Vault-Tür sprengen.
 
-☢️##Kernfunktionen
+## ☢️ Kernfunktionen
 
-##Überleben im Ödland braucht Übersicht
+## Überleben im Ödland braucht Übersicht
 
 Ein SIEM ist wie das Hauptterminal im Overseer-Büro.
 
@@ -37,19 +37,19 @@ Regulatorik = Überlebensregeln.
 • Sichtbarkeit für das SOC
 Das Security Operations Center ist dein Vault-Wachtrupp.
 
-#These:
+# These:
 
 Ein SIEM ist das Herz des Vaults.
 Ohne es bist du nur eine Höhle mit Strom.
 Heute vergleichen wir zwei Überlebensstrategien:
 Splunk vs. Elastic Stack
 
-☢️## Splunk
-##Die Vault-Tec Komplettlösung
+## ☢️ Splunk
+## Die Vault-Tec Komplettlösung
 
 Splunk ist wie ein High-End Vault von Vault-Tec selbst.
 
-#Philosophie:
+# Philosophie:
 
 Proprietär. Fertig. Poliert. Plug-and-Play.
 Du bekommst:
@@ -57,7 +57,7 @@ Vorgefertigte Überwachungssysteme
 Dashboards
 Detection-Packs
 
-#Abfragesprache:
+# Abfragesprache:
 
 SPL – mächtig, wie Terminal-Kommandos mit Pipe-Logik.
 Datenmodell:
@@ -65,13 +65,13 @@ Schema-on-Read.
 Alle Funksprüche werden erst mal gespeichert.
 Interpretation passiert beim Zugriff.
 
-#SIEM-Modul:
+# SIEM-Modul:
 
 Splunk Enterprise Security liefert fertige Detection-Inhalte mit Mapping auf
 MITRE ATT&CK
 Das ist wie ein Raider-Taktik-Handbuch direkt integriert.
 
-☢️##Splunk: Stärken & Schwächen
+## ☢️ Splunk: Stärken & Schwächen
 
 🟢 Vorteile
 Schnell einsatzbereit – Vault steht in Rekordzeit
@@ -85,7 +85,7 @@ Vendor Lock-in
 Skalierung im Ödland? Kostet Kronkorken. Viele.
 Splunk ist das Luxus-Vault-Modell.
 
-☢️##Splunk Analogie
+## ☢️ Splunk Analogie
 
 „Der Hochsicherheits-Vault mit Vollausstattung“
 Versprechen:
@@ -95,9 +95,9 @@ Du zahlst für Komfort.
 Vault-Tec übernimmt die Feinabstimmung.
 Aber Luxus hat seinen Preis.
 
-☢️##Elastic Stack
+## ☢️ Elastic Stack
 
-##Der selbst gebaute Überlebensbunker
+## Der selbst gebaute Überlebensbunker
 
 Elastic Stack ist modular.
 ELK =
@@ -107,11 +107,11 @@ Kibana
 Du bekommst Rohmaterial.
 Du baust dein eigenes Verteidigungssystem.
 
-#Abfragesprache:
+# Abfragesprache:
 
 ES|QL oder Query DSL (JSON-basiert).
 
-#Datenmodell:
+# Datenmodell:
 
 Schema-on-Write.
 Sensoren müssen korrekt verkabelt werden.
@@ -120,7 +120,7 @@ Elastic Security:
 Inzwischen stark gewachsen.
 Nicht mehr nur „günstige Alternative“, sondern ernstzunehmende Plattform.
 
-☢️##Elastic: Stärken & Schwächen
+## ☢️ Elastic: Stärken & Schwächen
 
 🟢 Vorteile
 Extrem skalierbar
@@ -135,11 +135,11 @@ Mehr Konfigurationsarbeit
 Elastic ist kein fertiger Vault.
 Es ist ein Baukasten für Überlebenskünstler.
 
-☢️##Elastic Analogie
+## ☢️ Elastic Analogie
 
-##Der modulare Ödland-Bunker
+## Der modulare Ödland-Bunker
 
-#Versprechen:
+# Versprechen:
 Baue dein eigenes Verteidigungssystem.
 
 Wenn perfekt konfiguriert:
@@ -149,16 +149,16 @@ Einen guten Overseer.
 Ein fähiges Technik-Team.
 Zeit.
 
-☢️##Entscheidung
+## ☢️ Entscheidung
 
-##Welcher Vault überlebt?
+## Welcher Vault überlebt?
 
-#Splunk priorisiert:
+# Splunk priorisiert:
 Komfort
 Standardisierung
 Schnelle Einsatzbereitschaft
 
-#Elastic priorisiert:
+# Elastic priorisiert:
 Kontrolle
 Skalierbarkeit
 Technische Freiheit
