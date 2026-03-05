@@ -1,6 +1,6 @@
 ## 🛠️ Sicherheitsleitfaden – Anwendungsabschirmung für Überlebende von Morgen
 
-### ████████ **Fallout – Vault Security Division** ████████
+### **Fallout – Vault Security Division** 
 
 *Herausgegeben von **Vault-Tec***
 
