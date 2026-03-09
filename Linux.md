@@ -44,11 +44,12 @@ find / -type f -name "*.conf"
 
 Häufige Suchparameter:
 
-Parameter	Bedeutung
--type f	Nur Dateien
--name *.conf	Bestimmte Dateiendungen
--user root	Dateien eines bestimmten Benutzers
--size +20k	Dateien größer als 20 KB
+| Parameter      | Bedeutung                          |
+| -------------- | ---------------------------------- |
+| `-type f`      | Nur Dateien                        |
+| `-name *.conf` | Bestimmte Dateiendungen            |
+| `-user root`   | Dateien eines bestimmten Benutzers |
+| `-size +20k`   | Dateien größer als 20 KB           |
 
 # ✏️ Dateien bearbeiten mit VIM
 
