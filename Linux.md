@@ -1,4 +1,4 @@
-🛡️ # VAULT-TEC FIELD MANUAL
+#🛡️ VAULT-TEC FIELD MANUAL
 Grundlagen & Sicherheit von Linux-Systemen
 
 "Ein gut gewartetes System ist der Unterschied zwischen einer funktionierenden Vault… und einem Experiment."
@@ -6,13 +6,13 @@ Grundlagen & Sicherheit von Linux-Systemen
 Dieses Dokument vermittelt die grundlegenden Werkzeuge und Sicherheitsmechanismen eines Linux-Systems.
 Es richtet sich an Systemadministratoren, Security-Analysten und technisch neugierige Vault-Bewohner, die ihre Umgebung verstehen und schützen wollen.
 
-📟 ## 1. Systemaufklärung – Wer bin ich und wo bin ich?
+##📟 1. Systemaufklärung – Wer bin ich und wo bin ich?
 
 Bevor man ein System absichert, muss man verstehen, wer man ist, wo man sich befindet und welche Rechte man besitzt.
 
 Linux bietet dafür mehrere schnelle Diagnosebefehle.
 
-🔎 ## Wichtige Systembefehle
+##🔎 Wichtige Systembefehle
 | Befehl     | Funktion                                              |
 | ---------- | ----------------------------------------------------- |
 | `whoami`   | Zeigt den aktuell angemeldeten Benutzer               |
@@ -20,7 +20,7 @@ Linux bietet dafür mehrere schnelle Diagnosebefehle.
 | `id`       | Zeigt Benutzer-ID, Gruppen und Berechtigungen         |
 | `uname -a` | Liefert Kernel-, System- und Architekturinformationen |
 
-# Beispiel
+## Beispiel
 whoami
 hostname
 id
@@ -34,12 +34,12 @@ Auf welchem Systemtyp gearbeitet wird
 
 Ob Privilegieneskalation möglich ist
 
-📂 # 2. Dateisystem-Erkundung
+#📂 2. Dateisystem-Erkundung
 
 Linux-Systeme enthalten oft tausende Konfigurationsdateien.
 Das wichtigste Werkzeug zur Navigation ist der legendäre find-Befehl.
 
-🔍 # Dateien suchen
+#🔍  Dateien suchen
 find / -type f -name "*.conf"
 
 Häufige Suchparameter:
@@ -50,7 +50,7 @@ Parameter	Bedeutung
 -user root	Dateien eines bestimmten Benutzers
 -size +20k	Dateien größer als 20 KB
 
-✏️ # Dateien bearbeiten mit VIM
+#✏️ Dateien bearbeiten mit VIM
 
 Der Editor vim ist ein Klassiker in der Linux-Welt.
 
@@ -67,13 +67,13 @@ Suche im Dokument
 
 Vim ist am Anfang etwas wie ein Vault-Tec Trainingssimulator: verwirrend, aber nach kurzer Zeit extrem effizient.
 
-🌐 # 3. Fernzugriff und Netzwerk
+##🌐 3. Fernzugriff und Netzwerk
 
 Linux-Server werden häufig ohne grafische Oberfläche betrieben und über das Netzwerk administriert.
 
 Das wichtigste Werkzeug dafür ist:
 
-🔐 SSH – Secure Shell
+##🔐 SSH – Secure Shell
 
 SSH ermöglicht verschlüsselten Fernzugriff auf Systeme.
 
@@ -86,7 +86,7 @@ Vorteile:
 - geringer Ressourcenverbrauch
 - ideal für Serververwaltung
 
-# Netzwerkdiagnose
+## Netzwerkdiagnose
 
 | Tool       | Funktion                           |
 | ---------- | ---------------------------------- |
@@ -95,12 +95,12 @@ Vorteile:
 | `ss`       | zeigt aktive Netzwerkverbindungen  |
 | `netstat`  | klassisches Netzwerkdiagnose-Tool  |
 
-🧱 ## 4. Systemhärtung (Hardening)
+##🧱 4. Systemhärtung (Hardening)
 
 Ein ungeschütztes System ist wie eine Vault ohne Tür.
 Linux bietet mehrere Schutzmechanismen.
 
-🔑 # Festplattenverschlüsselung (LUKS)
+#🔑 Festplattenverschlüsselung (LUKS)
 
 LUKS – Linux Unified Key Setup ermöglicht vollständige Festplattenverschlüsselung.
 
@@ -110,7 +110,7 @@ Vorteile:
 -Daten bleiben ohne Passwort unlesbar
 -verbreiteter Standard in Linux-Distributionen
 
-🔥# Firewall-Schutz
+#🔥 Firewall-Schutz
 
 Firewalls kontrollieren ein- und ausgehenden Netzwerkverkehr.
 
@@ -141,7 +141,7 @@ System aktualisieren:
 
 sudo apt update && sudo apt upgrade
 
-📜# 5. Logdateien – Die Erinnerung des Systems
+#📜 5. Logdateien – Die Erinnerung des Systems
 
 Logs sind das Gedächtnis eines Servers.
 
@@ -169,7 +169,7 @@ dmesg
 
 Dies zeigt den Kernel-Ringpuffer, der Hardware- und Bootmeldungen enthält.
 
-🧠## Vault-Tec Erkenntnis
+##🧠 Vault-Tec Erkenntnis
 
 Ein sicheres Linux-System basiert auf drei Prinzipien:
 
