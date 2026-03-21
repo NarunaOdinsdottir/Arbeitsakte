@@ -68,10 +68,12 @@ Beispiel 1 – ps Log
 Jeden Dienstag um 10 Uhr:
 ps aux läuft
 Ergebnis landet in Datei
+
 Beispiel 2 – top im Batch-Modus
 0 10 * * 2 top -b -n 1 > /home/vaultuser/top_log.txt
 -b = Batch
 -n 1 = nur einmal
+
 Beispiel 3 – Systemfehler checken
 0 10 * * * journalctl -p err -n 50 > /home/vaultuser/error_log.txt
 Holt die letzten 50 Fehler-Logs täglich um 10 Uhr
