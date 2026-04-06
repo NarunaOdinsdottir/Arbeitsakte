@@ -127,22 +127,27 @@ Vault-Bewohner, dein Terminal wartet… dein Cron-Job ist jetzt dein kleiner, st
 #!/bin/bash
 
 # 1. Umgebungsvariablen für die GUI (Damit Cron das Pop-up senden darf)
+
 export DISPLAY=:0
 export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus
 
 # 2. Pfade
+
 LOGFILE="/home/$USER/vault_status.log"
 TIMESTAMP=$(date "+%d.%m.%Y %H:%M:%S")
 
 # 3. Systemdaten sammeln
 # Wir nehmen nur die Ganzzahl der CPU-Last für den Vergleich
+
 CPU_LOAD=$(top -bn1 | grep "Cpu(s)" | awk '{print $2}' | cut -d'.' -f1)
 RAM_USAGE=$(free | grep Mem | awk '{print $3/$2 * 100.0}' | cut -d'.' -f1)
 
 # 4. Den Bericht in die Datei schreiben
+
 echo "[VAULT-OS MONITOR] - $TIMESTAMP | CPU: $CPU_LOAD% | RAM: $RAM_USAGE%" >> $LOGFILE
 
 # 5. DER ALARM-CHECK (Wenn RAM > 80% oder CPU > 90%)
+
 if [ "$RAM_USAGE" -gt 80 ]; then
     notify-send "⚠️ VAULT-ALARM" "Kritische RAM-Auslastung: $RAM_USAGE%" --icon=dialog-warning
 fi
